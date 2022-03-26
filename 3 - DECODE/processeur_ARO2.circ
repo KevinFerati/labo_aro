@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project integrity="718fabe1278ea4375637045eb22d30dc73523afa" source="2.16.8.t" version="1.0">
+<project integrity="37c1676f3e5d6672d27f158996e890a7f5dae3ee" source="2.16.8.t" version="1.0">
   This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
@@ -2269,23 +2269,26 @@ d40c 13*0 2080 200 2100 4308 3801 d609
     <a name="clabelfont" val="SansSerif bold 12"/>
     <a name="circuitnamedbox" val="true"/>
     <a name="circuitvhdlpath" val=""/>
-    <wire from="(370,770)" to="(420,770)"/>
+    <wire from="(400,760)" to="(400,770)"/>
     <wire from="(710,820)" to="(770,820)"/>
     <wire from="(320,960)" to="(320,970)"/>
     <wire from="(590,390)" to="(690,390)"/>
     <wire from="(1000,1000)" to="(1000,1020)"/>
     <wire from="(630,590)" to="(1440,590)"/>
+    <wire from="(370,780)" to="(410,780)"/>
     <wire from="(650,550)" to="(1440,550)"/>
     <wire from="(380,720)" to="(410,720)"/>
     <wire from="(290,990)" to="(320,990)"/>
     <wire from="(300,920)" to="(330,920)"/>
-    <wire from="(370,750)" to="(400,750)"/>
     <wire from="(740,840)" to="(770,840)"/>
     <wire from="(350,1060)" to="(370,1060)"/>
+    <wire from="(370,760)" to="(390,760)"/>
     <wire from="(550,170)" to="(580,170)"/>
     <wire from="(550,130)" to="(580,130)"/>
     <wire from="(550,210)" to="(580,210)"/>
     <wire from="(550,250)" to="(580,250)"/>
+    <wire from="(390,740)" to="(410,740)"/>
+    <wire from="(400,760)" to="(410,760)"/>
     <wire from="(320,960)" to="(330,960)"/>
     <wire from="(670,510)" to="(1440,510)"/>
     <wire from="(590,370)" to="(720,370)"/>
@@ -2306,10 +2309,8 @@ d40c 13*0 2080 200 2100 4308 3801 d609
     <wire from="(1110,530)" to="(1110,780)"/>
     <wire from="(810,840)" to="(840,840)"/>
     <wire from="(370,1020)" to="(370,1060)"/>
-    <wire from="(420,790)" to="(430,790)"/>
     <wire from="(590,530)" to="(1110,530)"/>
     <wire from="(240,110)" to="(320,110)"/>
-    <wire from="(370,740)" to="(380,740)"/>
     <wire from="(320,970)" to="(330,970)"/>
     <wire from="(350,1040)" to="(360,1040)"/>
     <wire from="(1140,520)" to="(1140,750)"/>
@@ -2318,7 +2319,6 @@ d40c 13*0 2080 200 2100 4308 3801 d609
     <wire from="(610,470)" to="(610,480)"/>
     <wire from="(610,510)" to="(610,520)"/>
     <wire from="(1140,750)" to="(1440,750)"/>
-    <wire from="(400,740)" to="(400,750)"/>
     <wire from="(1400,230)" to="(1440,230)"/>
     <wire from="(1400,150)" to="(1440,150)"/>
     <wire from="(1400,110)" to="(1440,110)"/>
@@ -2333,28 +2333,28 @@ d40c 13*0 2080 200 2100 4308 3801 d609
     <wire from="(300,920)" to="(300,940)"/>
     <wire from="(310,930)" to="(310,950)"/>
     <wire from="(360,1020)" to="(360,1040)"/>
-    <wire from="(380,720)" to="(380,740)"/>
+    <wire from="(380,720)" to="(380,750)"/>
     <wire from="(200,110)" to="(240,110)"/>
     <wire from="(290,970)" to="(320,970)"/>
     <wire from="(1110,780)" to="(1440,780)"/>
     <wire from="(300,940)" to="(330,940)"/>
+    <wire from="(370,770)" to="(400,770)"/>
     <wire from="(550,190)" to="(580,190)"/>
     <wire from="(550,230)" to="(580,230)"/>
     <wire from="(550,150)" to="(580,150)"/>
     <wire from="(550,110)" to="(580,110)"/>
     <wire from="(550,270)" to="(580,270)"/>
-    <wire from="(400,740)" to="(410,740)"/>
     <wire from="(700,830)" to="(770,830)"/>
     <wire from="(240,110)" to="(240,350)"/>
     <wire from="(320,980)" to="(330,980)"/>
+    <wire from="(370,750)" to="(380,750)"/>
     <wire from="(590,490)" to="(1170,490)"/>
     <wire from="(1220,660)" to="(1440,660)"/>
     <wire from="(240,370)" to="(310,370)"/>
     <wire from="(1200,480)" to="(1200,690)"/>
     <wire from="(590,450)" to="(1220,450)"/>
-    <wire from="(370,760)" to="(420,760)"/>
     <wire from="(590,350)" to="(630,350)"/>
-    <wire from="(420,770)" to="(420,790)"/>
+    <wire from="(390,740)" to="(390,760)"/>
     <wire from="(1020,980)" to="(1060,980)"/>
     <wire from="(790,860)" to="(790,880)"/>
     <wire from="(690,390)" to="(690,470)"/>
@@ -2742,7 +2742,7 @@ d40c 13*0 2080 200 2100 4308 3801 d609
       <a name="label" val="decode_control_bus_s"/>
     </comp>
     <comp lib="0" loc="(350,790)" name="Splitter">
-      <a name="fanout" val="5"/>
+      <a name="fanout" val="4"/>
       <a name="incoming" val="6"/>
       <a name="owner" val="chollet_ferati"/>
       <a name="date" val="21.03.22 18:40:49"/>
@@ -2753,7 +2753,7 @@ d40c 13*0 2080 200 2100 4308 3801 d609
       <a name="bit2" val="1"/>
       <a name="bit3" val="2"/>
       <a name="bit4" val="3"/>
-      <a name="bit5" val="4"/>
+      <a name="bit5" val="none"/>
     </comp>
     <comp lib="2" loc="(1020,980)" name="Multiplexer">
       <a name="width" val="3"/>
@@ -2870,9 +2870,6 @@ d40c 13*0 2080 200 2100 4308 3801 d609
       <a name="facing" val="north"/>
       <a name="label" val="sel_rm"/>
     </comp>
-    <comp lib="0" loc="(430,790)" name="Tunnel">
-      <a name="label" val="sel_rd"/>
-    </comp>
     <comp lib="0" loc="(410,720)" name="Tunnel">
       <a name="width" val="2"/>
       <a name="label" val="sel_rn"/>
@@ -2880,8 +2877,11 @@ d40c 13*0 2080 200 2100 4308 3801 d609
     <comp lib="0" loc="(410,740)" name="Tunnel">
       <a name="label" val="sel_rm"/>
     </comp>
-    <comp lib="0" loc="(420,760)" name="Tunnel">
+    <comp lib="0" loc="(410,760)" name="Tunnel">
       <a name="label" val="link_en_s"/>
+    </comp>
+    <comp lib="0" loc="(410,780)" name="Tunnel">
+      <a name="label" val="sel_rd"/>
     </comp>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>
@@ -8416,6 +8416,7 @@ d40c 13*0 2080 200 2100 4308 3801 d609
     <wire from="(150,910)" to="(250,910)"/>
     <wire from="(1170,1010)" to="(1180,1010)"/>
     <wire from="(450,1270)" to="(480,1270)"/>
+    <wire from="(760,70)" to="(780,70)"/>
     <wire from="(290,840)" to="(290,950)"/>
     <wire from="(660,140)" to="(660,690)"/>
     <wire from="(190,820)" to="(210,820)"/>
@@ -8469,9 +8470,15 @@ d40c 13*0 2080 200 2100 4308 3801 d609
     <wire from="(1120,910)" to="(1150,910)"/>
     <wire from="(660,690)" to="(790,690)"/>
     <wire from="(540,130)" to="(670,130)"/>
+    <wire from="(780,430)" to="(790,430)"/>
+    <wire from="(780,550)" to="(790,550)"/>
+    <wire from="(780,670)" to="(790,670)"/>
     <wire from="(540,120)" to="(680,120)"/>
     <wire from="(1120,400)" to="(1140,400)"/>
     <wire from="(1130,650)" to="(1150,650)"/>
+    <wire from="(780,190)" to="(790,190)"/>
+    <wire from="(780,70)" to="(790,70)"/>
+    <wire from="(780,310)" to="(790,310)"/>
     <wire from="(540,140)" to="(660,140)"/>
     <wire from="(510,1290)" to="(510,1300)"/>
     <wire from="(1100,440)" to="(1100,460)"/>
@@ -8499,7 +8506,6 @@ d40c 13*0 2080 200 2100 4308 3801 d609
     <wire from="(250,460)" to="(270,460)"/>
     <wire from="(250,500)" to="(270,500)"/>
     <wire from="(250,580)" to="(270,580)"/>
-    <wire from="(250,620)" to="(270,620)"/>
     <wire from="(1080,930)" to="(1150,930)"/>
     <wire from="(490,180)" to="(510,180)"/>
     <wire from="(700,210)" to="(790,210)"/>
@@ -8511,6 +8517,11 @@ d40c 13*0 2080 200 2100 4308 3801 d609
     <wire from="(250,420)" to="(270,420)"/>
     <wire from="(250,340)" to="(270,340)"/>
     <wire from="(1080,960)" to="(1110,960)"/>
+    <wire from="(780,70)" to="(780,190)"/>
+    <wire from="(780,190)" to="(780,310)"/>
+    <wire from="(780,310)" to="(780,430)"/>
+    <wire from="(780,430)" to="(780,550)"/>
+    <wire from="(780,550)" to="(780,670)"/>
     <wire from="(1110,370)" to="(1110,410)"/>
     <wire from="(1110,450)" to="(1110,490)"/>
     <wire from="(1120,620)" to="(1120,660)"/>
@@ -8909,20 +8920,6 @@ d40c 13*0 2080 200 2100 4308 3801 d609
       <a name="facing" val="east"/>
       <a name="label" val="clk_s"/>
     </comp>
-    <comp lib="0" loc="(250,620)" name="Pin">
-      <a name="width" val="16"/>
-      <a name="label" val="Data"/>
-      <a name="radix" val="16"/>
-      <a name="owner" val="chollet_ferati"/>
-      <a name="date" val="21.03.22 17:06:33"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="bb96388b-50fa-421d-9f8c-fe84bdfdab40"/>
-      <a name="integrity" val="72ca7a40930594a3aba2dacbf4e5ffc2a9f502c2"/>
-    </comp>
-    <comp lib="0" loc="(270,620)" name="Tunnel">
-      <a name="width" val="16"/>
-      <a name="label" val="Data"/>
-    </comp>
     <comp lib="0" loc="(870,70)" name="Tunnel">
       <a name="width" val="16"/>
       <a name="label" val="R0_S"/>
@@ -9274,6 +9271,11 @@ d40c 13*0 2080 200 2100 4308 3801 d609
     <comp lib="8" loc="(327,1196)" name="Text">
       <a name="text" val="Gestion registre LR"/>
       <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(760,70)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="16"/>
+      <a name="label" val="reg_write_data_s"/>
     </comp>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>
