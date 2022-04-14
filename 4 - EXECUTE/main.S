@@ -1,5 +1,11 @@
-mov r1, #4
-mov r0, #21
+mov r0, #1
+mov r1, #2
+mov r2, #3
+mov r3, #4
+mov r4, #5
+mov r5, #6
+mov r6, #7
+mov r7, #8
 
 ldrb r0, [r1, #1]
 strb r0, [r3, #2]
