@@ -1,35 +1,126 @@
-mov r0, #1
-mov r1, #2
-mov r2, #3
-mov r3, #4
-mov r4, #5
-mov r5, #6
-mov r6, #7
-mov r7, #8
+DEBUT:	
+	BL s1
+    B saut_debut
 
-ldrb r0, [r1, #1]
-strb r0, [r3, #2]
 
-add r3, r1, r0
-and r3, r1
+.org 0x10
+saut_debut: 
+	MOV r0, #2
+	mov r2, #2
+	ADD r1, r0, r2
+	
+	SUB r2, r1, #4
+	BEQ saut_egalite
 
-lsl r2, r1, #1
+.org 0x20
+saut_egalite: 
+	B saut_inconditionnel
 
-eor r1, r2
+.org 0x30
+saut_inconditionnel:
+	MOV r4, #255
+    B DEBUT
+	
+.org 0x40
+s1:
+	STRH r6, [r5]
+	ADD r5, #2
 
-neg r0, r1
+	MOV r0, #1
 
-asr r1, r0, #2
+	BL s2
 
-mvn r2, r1
+	MOV r0, #11
 
-beq DEST_1
+	SUB r5, #2
+	LDRH r6, [r5]
+	MOV r7, r6
 
-.org 0x24
-DEST_1 :
-    mov r3, #2
-    b DEST_2
+.org 0x60
+s2:
 
-DEST_2 : 
-    mov r2, #2
+	STRH r6, [r5]
+	ADD r5, #2
 
+	MOV r0, #2
+
+	BL s3
+	SUB r5, #2
+	LDRH r6, [r5]
+	MOV r7, r6
+
+.org 0x80
+s3:
+
+	STRH r6, [r5]
+	ADD r5, #2
+
+	MOV r0, #3
+
+	BL s4
+	SUB r5, #2
+	LDRH r6, [r5]
+	MOV r7, r6
+
+
+
+.org 0xA0
+s4:
+	STRH r6, [r5]
+	ADD r5, #2
+
+	MOV r0, #4
+
+	BL s5
+	SUB r5, #2
+	LDRH r6, [r5]
+	MOV r7, r6
+
+
+
+.org 0xC0
+s5:
+
+	STRH r6, [r5]
+	ADD r5, #2
+
+	MOV r0, #5
+
+	BL s6
+	SUB r5, #2
+	LDRH r6, [r5]
+	MOV r7, r6
+
+.org 0xF0
+s6:
+
+	STRH r6, [r5]
+	ADD r5, #2
+	
+	MOV r0, #6
+	
+	BL s7
+
+	SUB r5, #2
+	LDRH r6, [r5]
+	MOV r7, r6
+
+.org 0x100
+s7:
+
+	STRH r6, [r5]
+	add r5, #2
+
+	MOV r0, #7
+	
+	BL s8
+
+	SUB r5, #2
+	LDRH r6, [r5]
+	MOV r7, r6
+
+.org 0x110
+s8:
+	MOV r1, #8
+
+	MOV r7, r6
